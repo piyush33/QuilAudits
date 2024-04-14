@@ -72,7 +72,7 @@ const CountOfIssues = () =>{
                   <span className="circle1"></span>
                   <span style={{fontSize:"28px", fontWeight:"700", color:"#eee", marginRight:"40px"}}>108</span>
                   <img src={line} height ={30} />
-                  <span style={{color:"#aaa", marginLeft:"40px"}}>High Security <br/>Issues </span>
+                  <span style={{color:"#aaa", marginLeft:"30px"}}>High Security <br/>Issues </span>
                   <img src={arrow} height={15} style={{marginLeft:"50px"}}/>
                 </div>
                 {/* <div onClick={handleIssues2}v style ={{ display: "flex", alignItems:"center", justifyContent:"space-between", margin:"10px 20px", backgroundColor:"#191D23",padding:"10px"}}>
