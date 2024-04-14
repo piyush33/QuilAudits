@@ -61,42 +61,42 @@ const CountOfIssues = () =>{
             </div>
              
             <div>
-                <div onClick={handleIssues}  style ={{ display: "flex", alignItems:"center", justifyContent:"space-between", margin:"20px 20px", backgroundColor:"#191D23",padding:"10px"}}>
+                <div onClick={handleIssues}  style ={{ display: "flex", alignItems:"center", justifyContent:"space-between", margin:"10px 20px", backgroundColor:"#191D23",padding:"10px"}}>
                   <span className="circle"></span>
                   <span style={{fontSize:"28px", fontWeight:"700", color:"#eee", marginRight:"25px"}}>446</span>
                   <img src={line} height ={30} />
                   <span style={{color:"#aaa", marginLeft:"25px"}}>Total Issues <br/>Found </span>
                   <img src={arrow} height={15} style={{marginLeft:"50px"}}/>
                 </div>
-                <div onClick={handleIssues1}v style ={{ display: "flex", alignItems:"center", justifyContent:"space-between", margin:"20px 20px", backgroundColor:"#191D23",padding:"10px"}}>
+                <div onClick={handleIssues1}v style ={{ display: "flex", alignItems:"center", justifyContent:"space-between", margin:"10px 20px", backgroundColor:"#191D23",padding:"10px"}}>
                   <span className="circle1"></span>
                   <span style={{fontSize:"28px", fontWeight:"700", color:"#eee", marginRight:"25px"}}>108</span>
                   <img src={line} height ={30} />
                   <span style={{color:"#aaa", marginLeft:"40px"}}>High Security <br/>Issues </span>
                   <img src={arrow} height={15} style={{marginLeft:"50px"}}/>
                 </div>
-                <div onClick={handleIssues2}v style ={{ display: "flex", alignItems:"center", justifyContent:"space-between", margin:"20px 20px", backgroundColor:"#191D23",padding:"10px"}}>
+                {/* <div onClick={handleIssues2}v style ={{ display: "flex", alignItems:"center", justifyContent:"space-between", margin:"10px 20px", backgroundColor:"#191D23",padding:"10px"}}>
                   <span className="circle2"></span>
                   <span style={{fontSize:"28px", fontWeight:"700", color:"#eee", marginRight:"25px"}}>143</span>
                   <img src={line} height ={30} />
                   <span style={{color:"#aaa", marginLeft:"40px"}}>Med. Security <br/>Issues </span>
                   <img src={arrow} height={15} style={{marginLeft:"50px"}}/>
-                </div>
-                <div onClick={handleIssues3}v style ={{ display: "flex", alignItems:"center", justifyContent:"space-between", margin:"20px 20px", backgroundColor:"#191D23",padding:"10px"}}>
+                </div> */}
+                <div onClick={handleIssues3}v style ={{ display: "flex", alignItems:"center", justifyContent:"space-between", margin:"10px 20px", backgroundColor:"#191D23",padding:"10px"}}>
                   <span className="circle3"></span>
                   <span style={{fontSize:"28px", fontWeight:"700", color:"#eee", marginRight:"25px"}}>000</span>
                   <img src={line} height ={30} />
                   <span style={{color:"#aaa", marginLeft:"25px"}}>Low Security <br/>Issues </span>
                   <img src={arrow} height={15} style={{marginLeft:"50px"}}/>
                 </div>
-                <div onClick={handleIssues4}v style ={{ display: "flex", alignItems:"center", justifyContent:"space-between", margin:"20px 20px", backgroundColor:"#191D23",padding:"10px"}}>
+                <div onClick={handleIssues4}v style ={{ display: "flex", alignItems:"center", justifyContent:"space-between", margin:"10px 20px", backgroundColor:"#191D23",padding:"10px"}}>
                   <span className="circle4"></span>
                   <span style={{fontSize:"28px", fontWeight:"700", color:"#eee", marginRight:"25px"}}>068</span>
                   <img src={line} height ={30} />
                   <span style={{color:"#aaa", marginLeft:"25px"}}>Informational <br/> Issues </span>
                   <img src={arrow} height={15} style={{marginLeft:"50px"}}/>
                 </div>
-                <div onClick={handleIssues5}v style ={{ display: "flex", alignItems:"center", justifyContent:"space-between", margin:"20px 20px", backgroundColor:"#191D23",padding:"10px"}}>
+                <div onClick={handleIssues5}v style ={{ display: "flex", alignItems:"center", justifyContent:"space-between", margin:"10px 20px", backgroundColor:"#191D23",padding:"10px"}}>
                   <span className="circle5"></span>
                   <span style={{fontSize:"28px", fontWeight:"700", color:"#eee", marginRight:"25px"}}>127</span>
                   <img src={line} height ={30} />
@@ -122,48 +122,48 @@ const CountOfIssues = () =>{
                   <span style={{color:"#aaa", marginLeft:"50px"}}>{issueType}</span>
                 </div>
                 <div style={{color:"#eee", padding:"20px 10px"}}>List of Issues</div>
-                <div style={{overflowY: 'scroll', height:"50vh"}}>
-                <div onClick={()=>setIssueNumber("#1")} style={{backgroundColor:"#191D23", padding:"10px",display:"flex", alignItems:"center",margin:"10px 10px"}} >
+                <div style={{overflowY: 'scroll', height:"40vh"}}>
+                <div onClick={()=>setIssueNumber("#1")} style={{backgroundColor:"#191D23",display:"flex", alignItems:"center",margin:"10px 10px"}} >
                     <span style={{color:"#eee", padding:"20px 10px"}}>#1.lorem ipsum dolor sit ame</span>
                     <img src={line} height ={30} style={{marginLeft:"30px"}} />
                     <img src={arrow} height={15} style={{marginLeft:"30px"}}/>
                 </div>
-                <div onClick={()=>setIssueNumber("#2")} style={{backgroundColor:"#191D23", padding:"10px",display:"flex", alignItems:"center",margin:"10px 10px"}} >
+                <div onClick={()=>setIssueNumber("#2")} style={{backgroundColor:"#191D23",display:"flex", alignItems:"center",margin:"10px 10px"}} >
                     <span style={{color:"#eee", padding:"20px 10px"}}>#2.lorem ipsum dolor sit ame</span>
                     <img src={line} height ={30} style={{marginLeft:"30px"}} />
                     <img src={arrow} height={15} style={{marginLeft:"30px"}}/>
                 </div>
-                <div onClick={()=>setIssueNumber("#3")} style={{backgroundColor:"#191D23", padding:"10px",display:"flex", alignItems:"center",margin:"10px 10px"}} >
+                <div onClick={()=>setIssueNumber("#3")} style={{backgroundColor:"#191D23",display:"flex", alignItems:"center",margin:"10px 10px"}} >
                     <span style={{color:"#eee", padding:"20px 10px"}}>#3.lorem ipsum dolor sit ame</span>
                     <img src={line} height ={30} style={{marginLeft:"30px"}} />
                     <img src={arrow} height={15} style={{marginLeft:"30px"}}/>
                 </div>
-                <div onClick={()=>setIssueNumber("#4")} style={{backgroundColor:"#191D23", padding:"10px",display:"flex", alignItems:"center",margin:"10px 10px"}} >
+                <div onClick={()=>setIssueNumber("#4")} style={{backgroundColor:"#191D23",display:"flex", alignItems:"center",margin:"10px 10px"}} >
                     <span style={{color:"#eee", padding:"20px 10px"}}>#4.lorem ipsum dolor sit ame</span>
                     <img src={line} height ={30} style={{marginLeft:"30px"}} />
                     <img src={arrow} height={15} style={{marginLeft:"30px"}}/>
                 </div>
-                <div onClick={()=>setIssueNumber("#5")} style={{backgroundColor:"#191D23", padding:"10px",display:"flex", alignItems:"center",margin:"10px 10px"}} >
+                <div onClick={()=>setIssueNumber("#5")} style={{backgroundColor:"#191D23",display:"flex", alignItems:"center",margin:"10px 10px"}} >
                     <span style={{color:"#eee", padding:"20px 10px"}}>#5.lorem ipsum dolor sit ame</span>
                     <img src={line} height ={30} style={{marginLeft:"30px"}} />
                     <img src={arrow} height={15} style={{marginLeft:"30px"}}/>
                 </div>
-                <div onClick={()=>setIssueNumber("#6")} style={{backgroundColor:"#191D23", padding:"10px",display:"flex", alignItems:"center",margin:"10px 10px"}} >
+                <div onClick={()=>setIssueNumber("#6")} style={{backgroundColor:"#191D23",display:"flex", alignItems:"center",margin:"10px 10px"}} >
                     <span style={{color:"#eee", padding:"20px 10px"}}>#6.lorem ipsum dolor sit ame</span>
                     <img src={line} height ={30} style={{marginLeft:"30px"}} />
                     <img src={arrow} height={15} style={{marginLeft:"30px"}}/>
                 </div>
-                <div onClick={()=>setIssueNumber("#7")} style={{backgroundColor:"#191D23", padding:"10px",display:"flex", alignItems:"center",margin:"10px 10px"}} >
+                <div onClick={()=>setIssueNumber("#7")} style={{backgroundColor:"#191D23",display:"flex", alignItems:"center",margin:"10px 10px"}} >
                     <span style={{color:"#eee", padding:"20px 10px"}}>#7.lorem ipsum dolor sit ame</span>
                     <img src={line} height ={30} style={{marginLeft:"30px"}} />
                     <img src={arrow} height={15} style={{marginLeft:"30px"}}/>
                 </div>
-                <div onClick={()=>setIssueNumber("#8")} style={{backgroundColor:"#191D23", padding:"10px",display:"flex", alignItems:"center",margin:"10px 10px"}} >
+                <div onClick={()=>setIssueNumber("#8")} style={{backgroundColor:"#191D23",display:"flex", alignItems:"center",margin:"10px 10px"}} >
                     <span style={{color:"#eee", padding:"20px 10px"}}>#8.lorem ipsum dolor sit ame</span>
                     <img src={line} height ={30} style={{marginLeft:"30px"}} />
                     <img src={arrow} height={15} style={{marginLeft:"30px"}}/>
                 </div>
-                <div onClick={()=>setIssueNumber("#9")} style={{backgroundColor:"#191D23", padding:"10px",display:"flex", alignItems:"center",margin:"10px 10px"}} >
+                <div onClick={()=>setIssueNumber("#9")} style={{backgroundColor:"#191D23",display:"flex", alignItems:"center",margin:"10px 10px"}} >
                     <span style={{color:"#eee", padding:"20px 10px"}}>#9.lorem ipsum dolor sit ame</span>
                     <img src={line} height ={30} style={{marginLeft:"30px"}} />
                     <img src={arrow} height={15} style={{marginLeft:"30px"}}/>
@@ -184,16 +184,10 @@ const CountOfIssues = () =>{
                 <div style={{ backgroundColor:"#191D23", color:"#eee", padding:"20px 20px", margin:"10px 10px"}}>
                     <span style={{color:"#007AFF"}} >Description: </span>
                     <span> <br/>Lorem ipsum dolor sit amet, consec ascing elit, sed do eiusmod tpor incididunt ut labo et dolore magna aliqua. 
-                        Ut enim ad minim veniam, is nostrud exercitation ullamco lris nisi ut aliquip. Consectetur adiiscing elit, 
-                        se do eiusmod tempor indidut ut lbore et ore magna aliqua. om ipsum dolor sit amet ectr ig elit, 
-                        sed do eiusmod tempor ididunt utio labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consec ascing elit, 
-                        sed do eiusmod tpor incididunt ut labo et dolore magna aliqua.
+                        Ut enim ad minim veniam.
                     </span>
                     <span style={{color:"#007AFF"}}> <br/><br/> Remediation: </span>
-                    <span> <br/>Lorem ipsum dolor sit amet, consec ascing elit, sed do eiusmod tpor incididunt ut labo et dolore magna aliqua. 
-                        Ut enim ad minim veniam, is nostrud exercitation ullamco lris nisi ut aliquip. Consectetur adiiscing elit, 
-                        se do eiusmod tempor indidut ut lbore et ore magna aliqua. 
-                        om ipsum dolor sit amet ectr ig elit, sed do eiusmod tempor ididunt utio labore et dolore magna aliqua.
+                    <span> <br/>Lorem ipsum dolor sit amet, consec ascing elit, sed do eiusmod tpor incididunt ut labo et dolore magna aliqua.
                     </span>
                     <div style={{margin: "40px 0px 0px 60px", display:"flex", alignItems:"center"}}>
                       <button style={{margin:"0px 15px",padding:"10px 32px", backgroundColor:"#007AFF", border:"none", borderRadius:"3px", color:"#eee"}}>Auto Fix Code</button>
@@ -207,7 +201,7 @@ const CountOfIssues = () =>{
              </div>
              }
              <div>
-              <img src = {expandR} height = {15} style={{margin:"160px 0px 0px 0px"}} onClick={toggleOpenClose} /> 
+              <img src = {expandR} height = {15} style={{margin:"0px 0px 0px 0px"}} onClick={toggleOpenClose} /> 
             </div> 
         </div>
          }

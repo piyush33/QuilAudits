@@ -76,7 +76,7 @@ const FileDirectory = () => {
                 <span style={{color: "#eee", padding:"0px 5px"}}>Folder 123</span>
             </div>
             <div>
-              <img src = {expandL} height = {15} style={{margin:"350px 0px 0px 300px"}} onClick={toggleOpenClose} /> 
+              <img src = {expandL} height = {15} style={{margin:"50px 0px 0px 300px"}} onClick={toggleOpenClose} /> 
             </div>
         </div>
         }
