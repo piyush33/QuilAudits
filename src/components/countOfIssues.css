@@ -1,0 +1,80 @@
+.boxContainer {
+    width: 25%;
+    height: 70vh;
+    background-color: #13161A;
+    margin: 20px 10px;
+}
+
+.title {
+    padding: 20px 20px 10px 20px;
+    color: #eee;
+    border-bottom: 1px solid #2f3544;
+}
+
+.currentButton {
+    padding: 10px 40px;
+    background-color: #007AFF;
+    color: #eee;
+    border: none;
+}
+
+.rightButton {
+    padding: 10px 40px;
+    background-color: #1E232B;
+    color: #5D677D;
+    border: none;
+}
+
+.circle {
+    height: 10px;
+    width: 10px;
+    background-color: #5481FE;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.circle1 {
+    height: 10px;
+    width: 10px;
+    background-color: #FF4D4D;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.circle2 {
+    height: 10px;
+    width: 10px;
+    background-color: #FFD166;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.circle3 {
+    height: 10px;
+    width: 10px;
+    background-color: #06D6A0;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.circle4 {
+    height: 10px;
+    width: 10px;
+    background-color: #E568FF;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.circle5 {
+    height: 10px;
+    width: 10px;
+    background-color: #66E3F4;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10px;
+}

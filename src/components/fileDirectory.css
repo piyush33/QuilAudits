@@ -1,0 +1,13 @@
+.fileContainer {
+    width: 22.5%;
+    height: 70vh;
+    background-color: #13161A;
+    margin: 20px 10px;
+
+}
+
+.sectionTitle {
+    color: #eee;
+    padding: 15px;
+    border-bottom: 1px solid #393f49;
+}

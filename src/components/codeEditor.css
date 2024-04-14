@@ -1,0 +1,35 @@
+.fileTabContainer {
+    display: flex;
+    align-items: center;
+}
+
+.fileTabWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #007AFF;
+    height: 40px;
+    width: 150px;
+    padding: 0px 0px 0px 20px;
+    margin-bottom: 15px;
+}
+
+.fileTabWrapper1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2f3544;
+    height: 40px;
+    width: 150px;
+    padding: 0px 0px 0px 20px;
+    margin-bottom: 15px;
+    margin-left: 5px;
+}
+
+.fileTab {
+    color: #eee;
+}
+
+.fileTab1 {
+    color: #5D677D;
+}

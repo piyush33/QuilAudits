@@ -3,11 +3,20 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { configureStore } from "@reduxjs/toolkit";
+import { Provider } from "react-redux";
+import toggleReducer from './components/reducer/toggleData';
+import toggleReducerR from './components/reducer/toggleDataR';
+import switchReducer from './components/reducer/toggleTab';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+const store = configureStore({ reducer: { toggle: toggleReducer, toggleR:toggleReducerR, switch: switchReducer } });
+
 root.render(
   <React.StrictMode>
-    <App />
+    <Provider store={store}>
+      <App />
+    </Provider>
   </React.StrictMode>
 );
 
